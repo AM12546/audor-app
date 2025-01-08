@@ -1,0 +1,1 @@
+const fs = require("fs"); const content = `import { useState } from "react"; export default function TextUpload() { /* Component code here */ }`;  fs.writeFileSync("app/components/upload/TextUpload.tsx", content);
