@@ -1,1 +1,1 @@
-import { useState } from "react"; export default function TextUpload() { /* Component code here */ }
+export default function TextUpload() { return <div>Upload Text</div>; }
